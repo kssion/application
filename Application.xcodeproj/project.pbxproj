@@ -91,7 +91,6 @@
 			buildConfigurationList = 04069F54235561A30006C61C /* Build configuration list for PBXNativeTarget "Application" */;
 			buildPhases = (
 				04069F34235561A10006C61C /* Sources */,
-				04314AB5236C99FB00F8DE12 /* ShellScript */,
 				04069F35235561A10006C61C /* Frameworks */,
 				04069F36235561A10006C61C /* Resources */,
 			);
@@ -148,26 +147,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		04314AB5236C99FB00F8DE12 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nsh ${PROJECT_DIR}/Application/build-number-increases.sh\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04069F34235561A10006C61C /* Sources */ = {
