@@ -15,7 +15,6 @@
 		04069F4B235561A30006C61C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04069F4A235561A30006C61C /* Assets.xcassets */; };
 		04069F4E235561A30006C61C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04069F4C235561A30006C61C /* LaunchScreen.storyboard */; };
 		04069F51235561A30006C61C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04069F50235561A30006C61C /* main.m */; };
-		04314AB7236C9A1500F8DE12 /* build-number-increases.sh in Resources */ = {isa = PBXBuildFile; fileRef = 04314AB6236C9A1500F8DE12 /* build-number-increases.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +33,6 @@
 		04069F4F235561A30006C61C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04069F50235561A30006C61C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04069F57235562680006C61C /* Application.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Application.entitlements; sourceTree = "<group>"; };
-		04314AB6236C9A1500F8DE12 /* build-number-increases.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "build-number-increases.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +78,6 @@
 				04069F4A235561A30006C61C /* Assets.xcassets */,
 				04069F4C235561A30006C61C /* LaunchScreen.storyboard */,
 				04069F4F235561A30006C61C /* Info.plist */,
-				04314AB6236C9A1500F8DE12 /* build-number-increases.sh */,
 				04069F50235561A30006C61C /* main.m */,
 			);
 			path = Application;
@@ -146,7 +143,6 @@
 			files = (
 				04069F4E235561A30006C61C /* LaunchScreen.storyboard in Resources */,
 				04069F4B235561A30006C61C /* Assets.xcassets in Resources */,
-				04314AB7236C9A1500F8DE12 /* build-number-increases.sh in Resources */,
 				04069F49235561A10006C61C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,12 +321,14 @@
 				CODE_SIGN_ENTITLEMENTS = Application/Application.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.6;
 				DEVELOPMENT_TEAM = 59AKPRVN82;
 				INFOPLIST_FILE = Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = top.nsurl.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -345,12 +343,14 @@
 				CODE_SIGN_ENTITLEMENTS = Application/Application.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.6;
 				DEVELOPMENT_TEAM = 59AKPRVN82;
 				INFOPLIST_FILE = Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = top.nsurl.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
